@@ -80,8 +80,15 @@ nav a { color: #e5e7eb;
   height: 260px;
   background: #6b7280;
   color: #f9faf8;
-  display: flex; align-items: center; justify-content: center;
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
   border-radius: 8px;
+}
+
+.hero-image {
+    flex:0 0 520px;
+    height:260px;
 }
 
 .information, .quote, .contact, .footer { 
@@ -128,4 +135,11 @@ h2 {
     color: grey;
     font-size: 15px;
     font-weight: 200;
+}
+
+.quote-wrapper {
+    display:flex;
+    
+    background-color: #e5e7eb;
+    margin: 0px;
 }
