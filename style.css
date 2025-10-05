@@ -46,7 +46,8 @@ nav ul {
     padding: 0; 
 }
 
-nav a { color: #e5e7eb; 
+nav a { 
+    color: #e5e7eb; 
     font-size: 14px; 
 }
 
@@ -139,7 +140,60 @@ h2 {
 
 .quote-wrapper {
     display:flex;
-    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: #e5e7eb;
-    margin: 0px;
+    padding: 100px;
 }
+
+.quote-text {
+    color: #1f2937;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 36px;
+    font-weight:300;
+}
+
+.quote-name {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#1F2937;
+    font-weight: 900;
+    font-size:46px;
+    align-self: flex-end;
+}
+
+.contact-wrapper {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+    padding: 100px 0;
+}
+
+.contact-card {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 80px;
+    background-color: #3882f6;
+    color:white;
+    border-radius: 8px;
+    width: 900px;
+}
+
+.contact-card .btn {
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+
+.sign-up-text {
+    display:flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
