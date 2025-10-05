@@ -197,3 +197,13 @@ h2 {
     gap: 6px;
 }
 
+.footer {
+    background-color:#1f2937
+}
+
+.footer-text {
+    display:flex;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+}
